@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="PowerRangersGUI">
+  <grid id="27dc6" binding="pGeneral" layout-manager="GridLayoutManager" row-count="13" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="627" height="510"/>
+    </constraints>
+    <properties>
+      <background color="-4446419"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="f645f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1652721"/>
+          <text value="Registro de Power Ranger"/>
+        </properties>
+      </component>
+      <component id="5257" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1652721"/>
+        </properties>
+      </component>
+      <component id="a6f67" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1652721"/>
+        </properties>
+      </component>
+      <component id="cdccb" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Tipo de Poder:"/>
+        </properties>
+      </component>
+      <component id="daf95" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1652721"/>
+          <model>
+            <item value="Dino Poder"/>
+            <item value="Ninja Shadow"/>
+            <item value="Poder Cósmico"/>
+            <item value="Furia Salvaje"/>
+            <item value="Megazord Control"/>
+          </model>
+        </properties>
+      </component>
+      <component id="504c6" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Nivel de Entrenamiento:"/>
+        </properties>
+      </component>
+      <component id="c56b5" class="javax.swing.JComboBox" binding="comboBox2" default-binding="true">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1652721"/>
+          <model>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+            <item value="5"/>
+            <item value="6"/>
+            <item value="7"/>
+            <item value="8"/>
+            <item value="9"/>
+            <item value="10"/>
+          </model>
+        </properties>
+      </component>
+      <component id="77ad4" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Base Secreta"/>
+        </properties>
+      </component>
+      <component id="90098" class="javax.swing.JComboBox" binding="comboBox3" default-binding="true">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1652721"/>
+          <model>
+            <item value="Centro de Mando"/>
+            <item value="Volcán Subterráneo"/>
+            <item value="Torre Angel Grove"/>
+            <item value="Estación Galáctica"/>
+            <item value="Caverna del Dragon"/>
+          </model>
+        </properties>
+      </component>
+      <component id="f80d6" class="javax.swing.JButton" binding="agregarPowerRangerButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1652721"/>
+          <text value="Agregar Power Ranger"/>
+        </properties>
+      </component>
+      <component id="ed5b0" class="javax.swing.JButton" binding="buscarPorIDButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1652721"/>
+          <text value="Buscar por ID"/>
+        </properties>
+      </component>
+      <component id="f26dd" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Filtrar:"/>
+        </properties>
+      </component>
+      <component id="c7f2c" class="javax.swing.JComboBox" default-binding="true">
+        <constraints>
+          <grid row="8" column="3" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1652721"/>
+          <model>
+            <item value="Centro de Mando"/>
+            <item value="Volcán Subterráneo"/>
+            <item value="Torre Angel Grove"/>
+            <item value="Estación Galáctica"/>
+            <item value="Caverna del Dragon"/>
+          </model>
+        </properties>
+      </component>
+      <component id="1278a" class="javax.swing.JButton" binding="filtrarYOrdenarButton" default-binding="true">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1652721"/>
+          <text value="Filtrar y Ordenar"/>
+        </properties>
+      </component>
+      <component id="bc64" class="javax.swing.JTable" binding="table1" default-binding="true">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="5" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <autoCreateRowSorter value="false"/>
+          <background color="-1652721"/>
+        </properties>
+      </component>
+      <component id="4cfa3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="11" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Conteo Recursivo por tipo de Poder:"/>
+        </properties>
+      </component>
+      <component id="d859" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+        <constraints>
+          <grid row="12" column="0" row-span="1" col-span="4" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1652721"/>
+        </properties>
+      </component>
+      <component id="b04ab" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="ID:"/>
+        </properties>
+      </component>
+      <component id="1dc9d" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Nombre:"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
