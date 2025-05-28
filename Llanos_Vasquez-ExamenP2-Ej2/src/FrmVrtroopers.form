@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="FrmVrtroopers">
+  <grid id="27dc6" binding="pGeneral" layout-manager="GridLayoutManager" row-count="7" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="734" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-16306128"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="fc143" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="ID:"/>
+        </properties>
+      </component>
+      <component id="eec48" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="Alias:"/>
+        </properties>
+      </component>
+      <component id="2647f" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="Tecnología Especial: "/>
+        </properties>
+      </component>
+      <component id="57b69" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="Nivel Virtualidad: "/>
+        </properties>
+      </component>
+      <component id="de7e7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-1"/>
+          <text value="Dimensión Operativa: "/>
+        </properties>
+      </component>
+      <component id="1e56a" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="8d6d5" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+        <constraints>
+          <grid row="1" column="5" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="369fe" class="javax.swing.JComboBox" binding="comboBoxTecnologiaEspecial">
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Realidad Aumentada"/>
+            <item value="Hackeo Dimensional"/>
+            <item value="Campo de Invisibilidad"/>
+            <item value="Ilusión Holográfica"/>
+            <item value="Combate Cibernético"/>
+          </model>
+        </properties>
+      </component>
+      <component id="4a5a8" class="javax.swing.JComboBox" binding="comboBox2NivelVirtualidad">
+        <constraints>
+          <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="1"/>
+            <item value="2"/>
+            <item value="3"/>
+            <item value="4"/>
+            <item value="5"/>
+            <item value="6"/>
+            <item value="7"/>
+            <item value="8"/>
+            <item value="9"/>
+            <item value="10"/>
+          </model>
+        </properties>
+      </component>
+      <component id="298ee" class="javax.swing.JButton" binding="busquedaBinButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-13751504"/>
+          <text value="BusquedaBin"/>
+        </properties>
+      </component>
+      <component id="6343d" class="javax.swing.JButton" binding="registrarSoldadoButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <foreground color="-13751504"/>
+          <text value="Registrar Soldado"/>
+        </properties>
+      </component>
+      <component id="992c6" class="javax.swing.JTextArea" binding="textArea1" default-binding="true">
+        <constraints>
+          <grid row="0" column="7" row-span="7" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-16306128"/>
+          <foreground color="-1"/>
+        </properties>
+      </component>
+      <component id="d8ded" class="javax.swing.JButton" binding="crearNuevaListaButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Mostrar Lista por Tecnología"/>
+        </properties>
+      </component>
+      <component id="5785e" class="javax.swing.JButton" binding="ordenarPorNivelButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Ordenar por nivel"/>
+        </properties>
+      </component>
+      <component id="241d6" class="javax.swing.JComboBox" binding="comboBox3DimensiónOperativa">
+        <constraints>
+          <grid row="4" column="5" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <model>
+            <item value="Mundo Virtual"/>
+            <item value="Torre Ziktor"/>
+            <item value="Red Mental"/>
+            <item value="Base Satelital"/>
+            <item value="Cámara de Enlace"/>
+          </model>
+        </properties>
+      </component>
+      <component id="483c" class="javax.swing.JButton" binding="calcularNumeroDeSoldadosButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Calcular Numero de Soldados"/>
+        </properties>
+      </component>
+      <scrollpane id="4c12a">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="7" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="f2012" class="javax.swing.JTable" binding="table1" default-binding="true">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
